@@ -1,21 +1,21 @@
 body {
     background: #121212;
     color: #ffffff;
-    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .content {
     position: absolute;
     height: auto;
-    width: auto;    
+    width: auto;
     left: 50%;
     top: 50%;
     text-align: center;
-    transform: translate(-50%, -50%);    
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform-style: preserve-3d;
 }
 
@@ -30,4 +30,20 @@ ul {
 .icon {
     width: 2em;
     height: 2em;
+}
+
+.icon-github:hover {
+    filter: invert(33%) sepia(73%) saturate(6579%) hue-rotate(203deg) brightness(92%) contrast(98%);
+}
+
+.icon-stack-overflow:hover {
+    filter: invert(49%) sepia(100%) saturate(612%) hue-rotate(346deg) brightness(99%) contrast(93%);
+}
+
+.icon-email:hover {
+    filter: invert(39%) sepia(100%) saturate(7446%) hue-rotate(357deg) brightness(90%) contrast(124%);
+}
+
+.icon-cv:hover {
+    filter: invert(68%) sepia(91%) saturate(4045%) hue-rotate(84deg) brightness(116%) contrast(127%);
 }
