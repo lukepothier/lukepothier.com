@@ -18,12 +18,18 @@ p {
 }
 
 .content {
+    padding: 4em 2em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.content-center {
     position: absolute;
     height: auto;
     width: auto;
     left: 50%;
     top: 50%;
-    text-align: center;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
